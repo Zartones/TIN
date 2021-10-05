@@ -1,0 +1,35 @@
+h1{
+	color: green;
+	text-align: center;
+}
+
+body{
+	background-color: lightblue;
+}
+
+#one{
+	font-family: verdana;
+	font-size: 15px;
+	font-style: normal;
+}
+
+ul{
+	font-style: italic;
+}
+
+#TabOne,th,td{
+	border: 1px solid red;
+}
+
+#TabTwo, #td2{
+	border: 1px dotted yellow;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li::marker{
+	content: "#";
+}
+
