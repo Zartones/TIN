@@ -1,0 +1,27 @@
+body{
+	background-color: lightyellow;
+}
+
+#randtext{
+	background-color: red;
+	border:none;
+}
+
+#password{
+	background-color:red;
+	border:none;
+}
+
+input[type=submit], input[type=reset]{
+	background-color: darkgreen;
+	border:none;
+	font-style: italic;
+}
+
+select{
+	border: none;
+	width: 20%;
+	padding: 12px 20px;
+	background-color: lightgrey;
+	font-size: 20px;
+}
