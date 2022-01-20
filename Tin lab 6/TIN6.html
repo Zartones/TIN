@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+</head>
+
+
+<body>
+<script src="TIN6.js"></script>
+<p>
+<label>Fahrenheit</label>
+<input id="inputF" type="number">
+
+<label>Celcius</label>
+<input id="inputC" type="number">
+</p>
+
+<p>
+<button onclick="ConverterCelcius(inputF.value)">To Celcius</button>
+<button onclick="ConverterFahrenheit(inputC.value)">To Fahrenheit</button>
+</p>
+
+<p>Celcius: <span id="outputCelcius"></span></p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+<p id = "spawn"></p>
+
+<p>
+<label>Password</label>
+<input id ="password" onchange ="passCheck(this.value)">
+
+<label>Email</label>
+<input id ="email" onchange ="emailCheck(this.value)">
+</p>
+
+<p>Password: <span id="ret"></span></p>
+<p>Email: <span id="ret2"></span></p>
+
+<table id="table">
+	<tr>
+    <td>1:1</td>
+    <td>1:2</td>
+  </tr>
+  <tr>
+    <td>2:1</td>
+    <td>2:2</td>
+  </tr>
+  <tr>
+    <td>3:1</td>
+    <td>3:2</td>
+  </tr>
+
+</table>
+
+<p>
+<button onclick="addRow()">Add</button>
+</p>
+
+<style>
+table, td {
+  border: 3px solid black;
+}
+</style>
+
+</body>
+
+
+</html>
